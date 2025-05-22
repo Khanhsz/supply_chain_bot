@@ -7,5 +7,5 @@ def solve_problem(text, problem_type):
     elif problem_type == "break_even":
         return solve_breakeven(text)
     else:
-        return "🚧 Dạng bài này chưa hỗ trợ trong bản demo.
+    return """🚧 Dạng bài này chưa hỗ trợ trong bản demo."""
 This problem type is not yet supported in the demo."
